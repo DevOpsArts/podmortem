@@ -1,4 +1,0 @@
-3. pod-restart-journal — Pod Restart Root Cause Logger "podmortem"
-Watches for pod restarts and captures the reason, last logs, and events at the moment of restart
-Stores a searchable history (SQLite or flat file)
-Why unique: kubectl get events loses data after 1 hour; this persists it
