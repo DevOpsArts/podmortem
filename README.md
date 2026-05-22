@@ -2,7 +2,7 @@
 
 Watches for Kubernetes pod restarts and captures the **reason**, **last logs**, and **events** at the moment of restart. Stores a searchable history in SQLite that persists beyond the 1-hour event TTL in Kubernetes.
 
-![Architecture](Designer.png?v=2)
+![Architecture](architecture.png)
 
 ## Features
 
