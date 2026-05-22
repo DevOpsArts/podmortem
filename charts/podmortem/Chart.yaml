@@ -1,0 +1,15 @@
+apiVersion: v2
+name: podmortem
+description: Pod Restart Root Cause Logger — watches for pod restarts and captures reason, logs, and events
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
+keywords:
+  - kubernetes
+  - monitoring
+  - pod-restarts
+  - debugging
+  - observability
+maintainers:
+  - name: devopsart1
+home: https://hub.docker.com/r/devopsart1/podmortem
